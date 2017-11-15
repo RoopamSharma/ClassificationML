@@ -1,0 +1,43 @@
+>> rm diary
+error: 'rm' undefined near line 1 column 1
+>> remove
+warning: the 'remove' function is not yet implemented in Octave
+
+Please read <http://www.octave.org/missing.html> to learn how you can
+contribute missing functionality.
+error: 'remove' undefined near line 1 column 1
+>> rem
+error: called from
+    print_usage at line 79 column 5
+error: Invalid call to rem.  Correct usage is:
+
+ -- rem (X, Y)
+
+Additional help for built-in functions and operators is
+available in the online version of the manual.  Use the command
+'doc <topic>' to search the manual index.
+
+Help and information about Octave is also available on the WWW
+at http://www.octave.org and via the help@octave.org
+mailing list.
+>> del
+error: 'del' undefined near line 1 column 1
+>> delete
+error: called from
+    print_usage at line 79 column 5
+    delete at line 40 column 5
+error: Invalid call to delete.  Correct usage is:
+
+ -- delete (FILE)
+ -- delete (FILE1, FILE2, ...)
+ -- delete (HANDLE)
+
+Additional help for built-in functions and operators is
+available in the online version of the manual.  Use the command
+'doc <topic>' to search the manual index.
+
+Help and information about Octave is also available on the WWW
+at http://www.octave.org and via the help@octave.org
+mailing list.
+>> delete(diary)
+>> diary('result.txt')
