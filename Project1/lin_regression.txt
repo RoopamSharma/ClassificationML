@@ -1,7 +1,6 @@
 
 % The following is a MATLAB code for Linear Regresion
 
-% Following transform Xtrain and Xtest into double precision if they are not.
 
 % Xtrain = double(Xtrain);
 %  Xtest = double(Xtest);
